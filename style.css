@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#start-page {
+    text-align: center;
+}
+
+#start-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#start-page button {
+    background-color: green;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#start-page button:hover {
+    background-color: darkgreen;
+}
+
+#hacker-typer {
+    width: 80%;
+    max-width: 800px;
+    position: relative; /* Added for positioning the message and phone */
+}
+
+#display {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#message-container {
+    position: absolute;
+    top: 50px; /* Adjust position as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 255, 0, 0.5); /* Semi-transparent green background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#message {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+#phone-container {
+    position: absolute;
+    top: 150px; /* Adjust position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#phone-container img {
+    width: 400px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+#credentials {
+    background-color: black;
+    color: green;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+#restart-button {
+    background-color: green;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#restart-button:hover {
+    background-color: darkgreen;
+}
+
+.headerr {
+    background-color: #008000;
+    color: green;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

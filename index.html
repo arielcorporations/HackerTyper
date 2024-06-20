@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Typer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="headerr">
+        <img src="white-logo.png" alt="Logo">
+    </header>
+    <div id="start-page">
+        <h1>Ariel's Hacker Typer</h1>
+        <button onclick="startHack('mobile')">Hack a Mobile Phone</button>
+        <button onclick="startHack('computer')">Hack a Computer</button>
+        <button onclick="startHack('server')">Hack a Server</button>
+    </div>
+    <div id="hacker-typer" style="display: none;">
+        <pre id="display"></pre>
+        <div id="message-container" style="display: none;">
+            <div id="message">Professionally Hacked!</div>
+        </div>
+        <div id="phone-container" style="display: none;">
+            <img src="phone.png" alt="phone">
+            <div id="credentials"></div>
+        </div>
+        <button id="restart-button" style="display: none;" onclick="restartHack()">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
