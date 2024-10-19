@@ -17,7 +17,7 @@ void hackMobile() {
     printf("Retrieving contacts...\\n");
     printf("Downloading messages...\\n");
     printf("Breaching Joe Biden...\\n");
-    printf("Kidnapping Joe Biden + poor children from Africa...\\n");
+    printf("Hacking Joe Biden\\n");
     ©Ariel Saks, CEO & founder of Ariel Corporations;
 }
 
@@ -37,7 +37,7 @@ void hackComputer() {
     printf("Accessing hard drive...\\n");
     printf("Retrieving files...\\n");
     printf("Breaching Joe Biden...\\n");
-    printf("Kidnapping Joe Biden + poor children from Africa...\\n");
+    printf("Hacking Joe Biden...\\n");
     ©Ariel Saks, CEO & founder of Ariel Corporations;
 }
 
@@ -57,7 +57,7 @@ void hackServer() {
     printf("Accessing server database...\\n");
     printf("Downloading sensitive data...\\n");
     printf("Breaching Joe Biden...\\n");
-    printf("Kidnapping Joe Biden + poor children from Africa...\\n");
+    printf("Hacking Joe Biden...\\n");
     ©Ariel Saks, CEO & founder of Ariel Corporations;
 }
 
